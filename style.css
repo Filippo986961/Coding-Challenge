@@ -1,0 +1,99 @@
+body {
+    background-image: url(image/background.jpg);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header,
+.container,
+header>img {
+    margin: auto;
+}
+
+.container {
+    width: 1000px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 80px 80px 50px;
+}
+
+header>img,
+.scooter>span {
+    display: block;
+}
+
+header>img {
+    max-width: 200px;
+}
+
+header>h1 {
+    font-weight: 100;
+    text-align: center;
+    color: #00dd00;
+    margin: 5px;
+}
+
+.menu {
+    height: 40px;
+    background-color: #00dd00;
+    position: relative;
+}
+
+.button {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    left: 35%;
+    bottom: 20%;
+}
+
+main {
+    width: 60%;
+}
+
+.scooter {
+    color: white;
+    padding: 5px;
+}
+
+input[type=checkbox] {
+    transform: scale(0.75);
+}
+
+.scooter>h3 {
+    margin: 18px 0 5px;
+    display: inline-block;
+}
+
+.scooter>span:before {
+    content: "\21A6";
+}
+
+.scooter>div,
+.scooter>span {
+    padding: 5px 0;
+    font-size: small;
+    font-style: italic;
+}
+
+.charge {
+    height: 20px;
+    border-radius: 5px;
+}
+
+.gino>.charge {
+    width: 60%;
+    background-color: #f5b453;
+}
+
+.mike>.charge {
+    width: 100%;
+    background-color: #1ec31e;
+}
+
+.fede>.charge {
+    width: 20%;
+    background-color: #be4141;
+}
